@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './assets/all.scss';
+import img from './assets/images/kitty.jpeg';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <div className="text-primary">123</div>
+        <img src={img} className="cat" alt="img" />
       </header>
     </div>
   );
